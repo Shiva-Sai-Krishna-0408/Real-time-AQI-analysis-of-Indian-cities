@@ -1,0 +1,22 @@
+id,name,latitude,longitude,pm25_avg,risk_category,pm25_normalized,Region,region
+13,"Delhi Technological University, Delhi - CPCB",28.744,77.12,172.83,Very Unhealthy,1.0,North,North
+17,"R K Puram, Delhi - DPCC",28.563262,77.186937,117.44,Unhealthy,0.62,North,North
+50,"Punjabi Bagh, Delhi - DPCC",28.674045,77.131023,123.52,Very Unhealthy,0.66,North,North
+103,"Income Tax Office, Delhi - CPCB",28.6235,77.2494,141.59,Very Unhealthy,0.78,North,North
+235,"Anand Vihar, New Delhi - DPCC",28.646835,77.316032,129.0,Very Unhealthy,0.7,North,North
+236,"Mandir Marg, Delhi - DPCC",28.6341,77.2005,113.03,Unhealthy,0.59,North,North
+286,Collectorate - Gaya - BSPCB,24.7489694,84.9438395,82.86,Unhealthy for sensitive groups,0.38,East,East
+301,"Vikas Sadan, Gurugram - HSPCB",28.4501238,77.0263051,114.57,Unhealthy,0.6,North,North
+346,"MD University, Rohtak - HSPCB",28.876028,76.619464,89.97,Unhealthy for sensitive groups,0.43,North,North
+354,"Lalbagh, DN Park",26.84578611,80.93874444,135.05,Very Unhealthy,0.74,East,East
+378,Alandur Bus Depot,12.99711389,80.19151667,53.57,Moderate,0.18,East,East
+407,"Zoo Park, Hyderabad - TSPCB",17.349694,78.451437,54.74,Moderate,0.18,South,South
+412,"Peenya, Bengaluru - KSPCB",13.0339,77.51321111,44.59,Moderate,0.11,South,South
+431,"IHBAS, Delhi - CPCB",28.6821,77.305,99.46,Unhealthy,0.49,North,North
+594,"BTM Layout, Bengaluru - KSPCB",12.912811110000002,77.60921944,28.17,Good,0.0,South,South
+697,"Haldia, Haldia - WBPCB",22.06047,88.109737,41.51,Moderate,0.09,East,East
+703,Collectorate Jodhpur - RSPCB,26.2920639,73.0379111111111,90.8,Unhealthy,0.43,West,West
+716,"Rabindra Bharati University, Kolkata - WBSPCB",22.627875,88.3804,34.6,Moderate,0.04,East,East
+854,Chandrapur,19.95,79.3,64.74,Unhealthy for sensitive groups,0.25,South,South
+860,"Sanjay Palace, Agra - UPPCB",27.19865833,78.00598056,52.38,Moderate,0.17,North,North
+985,Collectorate - Muzaffarpur - BSPCB,26.0762,85.4115,114.29,Unhealthy,0.6,East,East
