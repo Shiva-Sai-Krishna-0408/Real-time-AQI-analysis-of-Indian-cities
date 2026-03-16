@@ -24,3 +24,5 @@ id,name,latitude,longitude
 860,"Sanjay Palace, Agra - UPPCB",27.19865833,78.00598056
 910,Victoria Memorial - WBSPCB,22.572646,88.36389499999996
 985,Collectorate - Muzaffarpur - BSPCB,26.0762,85.4115
+
+pd.read_csv("data/india_aqi_locations.csv").head()
