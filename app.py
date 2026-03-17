@@ -7,7 +7,7 @@ def get_color(risk_score):
     return "green" if risk_score <= 25 else "orange" if risk_score > 25 and risk_score <= 50 else "red" if risk_score > 50 and risk_score <= 75 else "darkred"
 
 st.title("Climate Risk Intelligence System - India")
-df = pd.read_csv(r"C:\Users\Shiva\Projects\climate-risk-intelligence\data\india_features_v2.csv")
+df = pd.read_csv("data/india_features_v2.csv")
 st.dataframe(df)
 
 india_map = folium.Map(location=[20.5937,78.9629],zoom_start=5)
