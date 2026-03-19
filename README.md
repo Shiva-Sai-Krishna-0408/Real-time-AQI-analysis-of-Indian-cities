@@ -1,11 +1,11 @@
-# Climate Risk Intelligence System
+# Real-time AQI Analysis of Indian Cities
 
 A machine learning system that scores and visualizes air quality risk 
 across Indian cities using real-time pollution data.
 
 ## Project Overview
 
-Climate Risk Intelligence pulls real-time air quality data from the 
+This project pulls real-time air quality data from the 
 OpenAQ API, processes and engineers features using NumPy and Pandas, 
 builds a risk scoring model using Random Forest Regression, and 
 visualizes results on an interactive Indian map using Folium and 
@@ -16,7 +16,7 @@ station by PM2.5 and PM10 pollution levels using WHO air quality
 guidelines as thresholds.
 
 ## Live Demo
-[Climate Risk Intelligence System](https://climate-risk-india-intelligence.streamlit.app/)
+https://real-time-aqi-india.streamlit.app/
 
 ## Tech Stack
 - **Data Collection**: Python, Requests, OpenAQ API
@@ -27,7 +27,7 @@ guidelines as thresholds.
 
 ## Project Structure
 ```
-climate-risk-intelligence/
+Real-time AQI Analysis/
 ├── data/
 │   ├── india_aqi_locations.csv
 │   ├── india_aqi_final.csv
@@ -60,7 +60,7 @@ climate-risk-intelligence/
 
 ## Results
 - **Dataset**: 13 Indian cities with complete PM2.5 and PM10 data
-- **Model MAE**: 4.7 (on held-out test set)
+- **Model MAE**: 4.79 (on held-out test set)
 - **Key Finding**: North Indian cities average PM2.5 of 120+ µg/m³ — 
   nearly 4x the WHO safe limit of 15 µg/m³. Southern cities like 
   Bengaluru average below 55 µg/m³
@@ -76,11 +76,12 @@ climate-risk-intelligence/
 - Plan to expand to global dataset for broader cross-country analysis
 - Prediction model will be retrained with larger dataset for 
   statistically meaningful results
+- The target variable is driven from mean of normalized scores of parameters which were used to train the model, making its    learning circular
 
 ## How to Run
 1. Clone the repository
 ```
-git clone https://github.com/Shiva-Sai-Krishna-0408/Climate-Risk-Intelligence.git
+git clone https://github.com/Shiva-Sai-Krishna-0408/Real-time-AQI-analysis-of-Indian-cities.git
 ```
 2. Create and activate virtual environment
 ```
