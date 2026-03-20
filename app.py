@@ -6,7 +6,7 @@ from streamlit_folium import st_folium
 def get_color(risk_score):
     return "green" if risk_score <= 25 else "orange" if risk_score > 25 and risk_score <= 50 else "red" if risk_score > 50 and risk_score <= 75 else "darkred"
 
-st.title("Climate Risk Intelligence System - India")
+st.title("Real-time AQI Analysis of Indian Cities")
 df = pd.read_csv("data/india_features_v2.csv")
 st.dataframe(df)
 
